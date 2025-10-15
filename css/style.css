@@ -1,0 +1,162 @@
+body {
+    background-color: #e6f8e0;
+    color: #000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    color: #2e7d32;
+  margin-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #f1fff0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    color: #000;
+    padding: 20px;
+    width: 250px;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+button:hover{
+    background-color: #45a049;
+}
+
+
+.lesson-container {
+    display: block;
+    max-width: 900px;     
+    margin: 0 auto;        
+    padding: 10px 24px;
+  }
+  
+ 
+  #lessonContent,
+  #lessonContent p,
+  #lessonContent ul,
+  #lessonContent ol,
+  #lessonContent h2,
+  #lessonContent h3 {
+    text-align: left;
+  }
+  
+ 
+  #lessonContent {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #0b2b16;
+  }
+  
+  
+  #lessonContent h2,
+  #lessonContent h3 {
+    text-align: center;
+    margin: 18px 0 10px;
+    color: #144d2a;
+  }
+  
+  
+  #lessonContent ul,
+  #lessonContent ol {
+    margin: 12px 0 20px 24px; 
+    padding: 0;
+  }
+  
+  
+  #lessonContent li {
+    margin: 8px 0;
+  }
+  
+  
+  #lessonContent p b,
+  #lessonContent p strong {
+    color: #166229;
+  }
+  
+  
+  .lesson-container > div {
+    text-align: center; 
+    margin-top: 20px;
+  }
+
+  /* Center the quiz card within the page */
+.lesson-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers horizontally */
+    justify-content: center; /* centers vertically */
+    min-height: 80vh;      /* takes most of the screen height */
+    gap: 20px;             /* spacing between elements */
+  }
+  
+  /* The quiz question card */
+  #questionBox {
+    background-color: #f1fff0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 25px 30px;
+    width: 100%;
+    max-width: 600px;   /* keeps it neat on large screens */
+    text-align: left;   /* question text & choices aligned left */
+  }
+  
+  /* Headings inside quiz */
+  #qText {
+    text-align: center;
+    color: #1b5e20;
+    margin-bottom: 16px;
+  }
+  
+  /* Choice buttons */
+  .choiceBtn {
+    background-color: #ffffff;
+    border: 1px solid #cde9cd;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    color: #1b5e20;
+  }
+  
+  .choiceBtn:hover {
+    background-color: #e0f2e0;
+    
+  }
+  
+  /* Center the controls (Next / Submit buttons) */
+  #controls {
+    text-align: center;
+  }
+  
+  /* Result section also centered nicely */
+  #result {
+    background-color: #f1fff0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 25px 30px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  

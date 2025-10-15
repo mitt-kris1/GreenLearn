@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz.GreenLearn</title>\
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="quizTitle">Quiz</h1>
+    </header>
+    <main class="lesson-container">
+        <section id="quizArea">
+          <div id="questionBox" class="card">
+            <h2 id="qText">Loading...</h2>
+            <div id="choices"></div>
+          </div>
+    
+          <div id="controls" style="margin-top:16px; text-align:center;">
+            <button id="nextBtn">Next</button>
+            <button id="submitBtn" style="display:none">Submit</button>
+          </div>
+    
+          <div id="result" style="display:none; margin-top:20px; text-align:center;">
+            <h2 id="resultText"></h2>
+            <p id="resultDetails"></p>
+            <div style="margin-top:12px;">
+              <button id="retryBtn">Retry Quiz</button>
+              <button id="backToLessonBtn">Back to Lesson</button>
+              <button id="homeBtn">Home</button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+</body>
+<script src="js/quiz.js"></script>
+</html>
